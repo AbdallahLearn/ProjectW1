@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #3d3d3d;
+}
+/* navbar with cover moive */
+.navbar{
+    display: inline;
+    color:white;
+}
+ul{
+    position: absolute;
+    top:40px;
+    margin: auto;
+    left:100px;
+}
+li{
+    display: inline;
+    padding:20px 50px;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+    /* padding:0 0px; */
+}
+h2{
+    position: relative;
+    left:100px;
+}
+.invite{
+    position: relative;
+    left:100px;
+    top:200px;
+    border:1px solid white;
+    width:70%;
+    height:300px;
+    color:white;
+    border-radius: 30px;
+}
+label{
+    font-size: larger;
+}
+input{
+    padding:5px 5px;
+    width:80%;
+}
+form{
+    position: relative;
+    left:100px;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    padding:5px;
+    width:100px;
+    background-color: rgba(27, 27, 154, 0.525);
+    color:white;
+}
+.imgCover{
+    position: absolute;
+    bottom:500px;
+    left:500px;
+    background-attachment: fixed;
+}
+
+.imgContainer{
+    background-image: url("https://img.freepik.com/premium-photo/abstract-white-gradient-design-background-stock-illustration-with-circles_957479-52843.jpg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    width:100%;
+    height:80vh;
+    background-position:bottom;
+    background-size: 100%;
+    object-fit: fill;
+    background-attachment: fixed;
+}
+.logName{
+    padding-top: 400px;
+    padding-left: 30px;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 30px rgba(255, 255, 255, 0.4),
+        0 0 40px rgba(255, 255, 255, 0.2);
+}
