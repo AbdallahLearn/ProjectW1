@@ -31,7 +31,7 @@ ul{
     color:white;
     text-decoration: none;
     font-size: larger;
-    padding:0 50px;
+    
 }
 a:hover{
     color:rgb(136, 136, 136);
@@ -60,7 +60,6 @@ li{
     background-attachment: fixed;
 }
 .movieName{
-   
     padding-top: 200px;
     font-size: 48px;
     color: #fff;

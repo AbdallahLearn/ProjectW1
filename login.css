@@ -23,7 +23,6 @@ li{
     color:white;
     text-decoration: none;
     font-size: larger;
-    /* padding:0 0px; */
 }
 h2{
     position: relative;
@@ -51,6 +50,9 @@ form{
     left:100px;
 }
 input[type="submit"]{
+    position: relative;
+    right:91%;
+    top:50px;
     margin-top: 20px;
     padding:5px;
     width:100px;
@@ -62,6 +64,10 @@ input[type="submit"]{
     bottom:500px;
     left:500px;
     background-attachment: fixed;
+}
+#forget{
+    position: relative;
+    right:520px;
 }
 
 .imgContainer{
@@ -79,9 +85,9 @@ input[type="submit"]{
     padding-top: 400px;
     padding-left: 30px;
     font-size: 48px;
-    color: #fff;
+    color: white;
     text-shadow: 
-        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 10px rgba(0, 0, 0, 0.8),
         0 0 20px rgba(255, 255, 255, 0.6),
         0 0 30px rgba(255, 255, 255, 0.4),
         0 0 40px rgba(255, 255, 255, 0.2);
